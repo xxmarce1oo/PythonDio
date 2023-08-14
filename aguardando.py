@@ -4,7 +4,7 @@ ponto = "."
 ponto2 = ".."
 ponto3 = "..."
 
-for i in range(0,100000000000000000):
+for i in range(0):
     os.system("cls")
     
     for j in ponto:
