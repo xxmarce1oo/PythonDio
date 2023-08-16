@@ -1,12 +1,12 @@
 import random 
- 
-min = input("Pedra, papel ou tesoura?\n")
+
+
+jogador_1 = random.choice(["Pedra".lower(),"Papel".lower(), "Tesoura".lower()])
 jogador_2 = random.choice(["Pedra".lower(),"Papel".lower(), "Tesoura".lower()])
-jogador_1 = min.lower()
 
 
-print("Jogador 1 digitou: " + jogador_1)
-print("Jogador 2 digitou: " + jogador_2)
+print("Jogador 1 escolheu: " + jogador_1)
+print("Jogador 2 escolheu: " + jogador_2)
 
 
 if jogador_1 == jogador_2:
