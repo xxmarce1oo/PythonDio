@@ -8,9 +8,9 @@ while True:
     jogador_2 = random.choice(["Pedra".lower(),"Papel".lower(), "Tesoura".lower()])
     
     print("Jogador 1 escolheu: " + jogador_1)
-    time.sleep(0.5)
+    time.sleep(1.0)
     print("Jogador 2 escolheu: " + jogador_2)
-    time.sleep(0.5)
+    time.sleep(1.0)
 
     if jogador_1 == jogador_2:
         print("Resultado: empate")
@@ -28,5 +28,5 @@ while True:
         print("Jogador 1 perdeu")
     else:
         print("Entrada inválida")
-    time.sleep(0.5)
+    time.sleep(1.0)
     os.system("cls")
